@@ -1,0 +1,24 @@
+
+<div class="container-fluid" >
+	<div class="row">
+		
+        <form name="loginForm"  class="form-horizontal col-lg-offset-2 col-lg-8  col-lg-offset-2 col-md-offset-4 col-md-4  col-md-offset-4 col-sm-offset-3 col-sm-6  col-sm-offset-3 col-xs-offset-0 col-xs-12 col-xs-offset-0" style="padding-top:15px">
+         <h1>Your score is:{{result}} %</h1>
+        <div ng-repeat = "items in totalData">
+            <div class="form-group" >           
+            <h4>{{items.question}}</h4>
+            <div class="menu-disabled-{{items.answerStatus}}">
+              
+                <p>Your Answer:{{" "+items.givenAnswer}}</p>  
+                 <p>Correct Answer:{{" "+items.option[items.answer]}}{{" "+items.answer.replace("_"," and ")}}</p>                       
+            </div>
+        </div>
+        </div>
+        
+        
+        
+        
+       
+</form>
+	</div>
+</div>

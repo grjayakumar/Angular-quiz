@@ -1,0 +1,9 @@
+[	
+
+	{ "type":"choose", "question":"1. Which is not an advantage of using a closure?" ,"option":[" a. Prevent pollution of global scope"," b. Encapsulation"," c. Private properties and methods"," d. Allow conditional use of ‘strict mode’"],"answer":"3","score":"10","answerStatus":"false","givenAnswer":""},
+	{ "type":"choose", "question":"2.To create a columned list of twoline email subjects and dates for a masterdetail view,which are the most semantically correct?" ,"option":[" a. <div>+<span>"," b. <tr>+<td>"," c. <ul>+<li>"," d. <p>+<br>","e. none of these","All of the this"],"answer":"1","score":"10","answerStatus":"false","givenAnswer":""},
+	{ "type":"choose", "question":"3.To create a columned list of twoline email subjects and dates for a masterdetail view,which are the most semantically correct?" ,"option":[" a. fn.apply(this, stringsArray)"," b. fn.call(this, stringsArray)"," c. fn.bind(this, stringsArray)"],"answer":"2","score":"10","answerStatus":"false","givenAnswer":""},
+	{ "type":"fill", "question":"4._ and _ would be the HTML tags you would use to display a menu item and its","answer":"ul_li","score":"10","answerStatus":"false","givenAnswer":""},
+	{ "type":"choose", "question":"5.Given <div id=”outer”><div class=”inner”></div></div>, which of these two is the most performant way to select the inner div?" ,"option":["a. getElementById('outer').children[0]","b. getElementsByClassName('inner')[0]"],"answer":"0","score":"10","answerStatus":"false","givenAnswer":""}	
+	
+ ]

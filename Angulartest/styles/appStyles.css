@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:51px;
+}
+.selected{
+background-color: lightgreen;
+}
+.menu-disabled-true {
+
+background:green;
+opacity:0.75;
+}
+.menu-disabled-false {
+background:red;
+opacity:0.75;
+}
+
